@@ -28,10 +28,16 @@ function dec(a){
   return a--
 } 
 
-function makeInt(a){
+function makeInt(n){
+  if (){
   return parseInt(a)
-} 
-
+  }
+  else if(){
+  return 
+  }  
+  else (){
+    
+  }  
 
 describe('makeInt(n)', function() {
   it('parses n as an integer and returns the parsed integer', function() {
@@ -46,6 +52,21 @@ describe('makeInt(n)', function() {
     expect(isNaN(makeInt('sldkjflksjf'))).toEqual(true)
   })
 })
+
+function preserveDecimal(n){
+  if (){
+    
+  }
+  
+  else (){
+    
+  }
+  
+  
+} 
+
+
+
 
 describe('preserveDecimal(n)', function() {
   it('preserves n\'s decimals (it parses n as a floating point number) and returns the parsed number', function() {
